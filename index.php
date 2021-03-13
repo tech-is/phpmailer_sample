@@ -18,12 +18,12 @@ $mail = new PHPMailer(true);
 
 try {
     //送信先情報
-    $to         = "info@yumenoya.net";
+    $to         = "nakatsuka@techis.jp";　//送信先アドレス
     $toname    = "送信先の名前";
     //smtp設定情報
-    $username  = "tt9865954@gmail.com";
+    $username  = "○○○○○@gmail.com"; //取得した捨てGmail
     $useralias = "techis-Gmail";
-    $password  = "qyxgmmwvjpzdbhqj";
+    $password  = "qyxgmmwvjpzdbhqj"; //取得したアプリパスワード
     $subject = "テスト件名";
     $body = "\r\n"
         . "------------------------------\r\n"
